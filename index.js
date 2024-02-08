@@ -50,7 +50,7 @@ client.on("ready", async () => {
       const r = new Discord.RichPresence()
           .setApplicationId('1121867777867788309')
           .setType('STREAMING')
-          .setURL('https://youtu.be/sVaQQRx6-es?si=WddbMqrjlhmF6kF8')
+          .setURL('https://www.youtube.com/watch?v=FvOpPeKSf_4')
           .setState(stateTexts[currentStateIndex])
           .setName(nameTexts[currentnameTextsIndex])
           .setDetails(` ﹝ ⌚ ${currentTime} | 💬 ${client.user.username} ﹞ `)
@@ -58,7 +58,8 @@ client.on("ready", async () => {
           .setAssetsLargeText(`﹝ 📅 ${currentDate}  | 🛸 0 m/s ﹞`)
           .setAssetsLargeImage(largeImages[currentLargeImageIndex])
           .setAssetsSmallText('🦊')
-          .addButton('My G796', 'https://discord.com/invite/xhqcSC5K4Y')
+          .addButton('DISCORD796', 'https://discord.com/invite/xhqcSC5K4Y') 
+          .addButton('🎧', 'https://open.spotify.com/track/6uINnfTwHKIpzXV4NBVsoA?si=CZoVQiGxS6ChX8zBAs5XAw')
 
       client.user.setActivity(r);
 
