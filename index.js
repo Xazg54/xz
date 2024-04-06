@@ -8,10 +8,10 @@ const app = express();
 const port = 8000;
 
 const largeImages = [
-    'https://media.discordapp.net/attachments/1219958499304542209/1220359198290870282/ppx.webp?ex=660ea712&is=65fc3212&hm=b14a88e647e9a4fbebe97fa7ef767feb44a515b7578761bf65937dfeac022d1e&=&format=webp',
-    'https://media.discordapp.net/attachments/1219958499304542209/1220359198576087191/ppx1.gif?ex=660ea712&is=65fc3212&hm=16c2da801bc31fe540e1f1efcbf02bf8452799b0ce4b3111f1fe8b69866ae6a8&=',
-    'https://media.discordapp.net/attachments/1219958499304542209/1220359199125536818/ppx2.gif?ex=660ea712&is=65fc3212&hm=8724a19ae4b841a5084d4db0939f32bd9616588c245a8152386aeaf516136815&=',
-    'https://media.discordapp.net/attachments/1219958499304542209/1220359199507222559/ppx3.gif?ex=660ea712&is=65fc3212&hm=8862744382fa7e0e40149a3fe9baacea291fee12705f7a56e5f361083c73b50d&='
+    'https://images-ext-1.discordapp.net/external/YkT5BJz7k9mOFU35oDO8EZNgVbYyEsVCihyOU4Hjz0E/https/media.tenor.com/9KMPpoEXWBYAAAAM/cat-walking.gif',
+    'https://images-ext-1.discordapp.net/external/pp7Yr62xeLfQ4Ev1i45NQCq2_MSKUFC9wN7VSdfyyOY/https/media.tenor.com/jTw3YLgPkKMAAAAM/angry-black-cat-meme.gif',
+    'https://images-ext-1.discordapp.net/external/161tYEQ396fl6AHgY5ZchUacFP__Pzd3CtN2b4fpABM/https/media.tenor.com/gZU3n_9Nv2EAAAAM/cat-cat-stare.gif',
+    'https://images-ext-1.discordapp.net/external/HC_TctzmHggmX2ohkTb48Da7zUw2czYtM2SvHFPqhFA/https/media.tenor.com/47qpxBq_Tw0AAAAM/cat-cat-meme.gif'
     // Add more large image URLs as needed
 ];
 
